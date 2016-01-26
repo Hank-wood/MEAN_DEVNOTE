@@ -1,8 +1,60 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font: 13px Helvetica, Arial; }
-form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
-form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-#messages { list-style-type: none; margin: 0; padding: 0; }
-#messages li { padding: 5px 10px; }
-#messages li:nth-child(odd) { background: #eee; }
+.container {
+	width:1170px;
+	margin:0 auto;
+	padding:20px;
+}
+h1 {
+	font-size:18px;
+	color:#fff;
+	background:#23ade4;
+	padding:10px;
+}
+.chat-room-left {
+	position:relative;
+	float:left;
+	width:80%;
+	height:500px;
+	background:#fff;
+	border:1px solid #23ade4;
+}
+.messageList {
+	height:424px;
+	overflow:scroll;
+}
+.messageList li{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*发送区域*/
+.send-message-area {
+	width: 100%;
+	position: absolute;
+    bottom: 0;
+}
+.chat-input {
+	width:80%;
+	padding:10px;
+	border:1px solid #23ade4;
+	border-left:none;
+	border-bottom:none;
+}
+.send-message-button {
+	border: none;
+    background: #23ade4;
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-left: -2px;
+}
+
+.chat-room-right {
+	float:left;
+	width:18%;
+	padding:5px;
+}
