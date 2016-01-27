@@ -6,7 +6,7 @@
 h1 {
 	font-size:18px;
 	color:#fff;
-	background:#23ade4;
+	background:#80bd01;
 	padding:10px;
 }
 .chat-room-left {
@@ -15,7 +15,7 @@ h1 {
 	width:80%;
 	height:500px;
 	background:#fff;
-	border:1px solid #23ade4;
+	border:1px solid #80bd01;
 }
 .messageList {
 	height:424px;
@@ -36,13 +36,13 @@ h1 {
 .chat-input {
 	width:80%;
 	padding:10px;
-	border:1px solid #23ade4;
+	border:1px solid #80bd01;
 	border-left:none;
 	border-bottom:none;
 }
 .send-message-button {
 	border: none;
-    background: #23ade4;
+    background:#80bd01;
     float: right;
     font-size: 18px;
     color: #fff;
