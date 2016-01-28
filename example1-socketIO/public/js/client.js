@@ -11,13 +11,23 @@ $(function(){
 
 
 var socket = io.connect();
+
 		socket.on('connect', function(){
 			 socket.on('sendMessage',function(msg){
 			 	var date = new Date();
-			 	$('.messageList').append($('<li></li>').text(date.getCurrentTime()+' '+msg));
+			 	$('.messageList').append($('<li></li>').text(
+			 		date.getCurrentTime()+' '+msg.userName+':'+msg.body));
 			})
 		})
 
+		socket.on('nameResult',function(msg){
+			$('.messageList').append($('<li></li>').text('当前用户的名字是:'+msg.userName));
+		})
+
+		socket.on('disconnect',function(msg){
+			$('.messageList').append($('<li></li>').text(msg));
+		})
+		
 		$('input[name="message"]').keydown(function(event){
 			event.stopPropagation();
 			if(event.which==13){

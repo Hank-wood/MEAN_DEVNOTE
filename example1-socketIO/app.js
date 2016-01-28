@@ -15,7 +15,6 @@ app.get('/',(req,res) => {
   res.render('pages/chat_room')
 })
 
-
 //socketio服务器
 charServer.startSocketServer(app)
 
