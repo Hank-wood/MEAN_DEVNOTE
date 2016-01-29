@@ -1,0 +1,16 @@
+{
+  "name": "es6_server",
+  "version": "1.0.0",
+  "description": "es6",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6"
+  ],
+  "author": "wrary",
+  "license": "ISC"
+}
