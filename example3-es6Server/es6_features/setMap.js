@@ -24,3 +24,13 @@ console.log(union)
 let intersect = new Set([...s1].filter(x => s2.has(x)));
 
 console.log(intersect)
+
+
+
+var map1 = new Map();
+
+map1.set('name','wulei');
+map1.set('age',10);
+
+
+
