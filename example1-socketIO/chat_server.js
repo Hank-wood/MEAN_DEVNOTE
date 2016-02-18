@@ -26,11 +26,8 @@ exports.startSocketServer = (app) => {
 					body:msg
 				});
 			})
-			
-
 			userCount++;
 	  });
-
 		server.listen(app.get('port'),() => {
 		  console.log('欢迎来到wray聊天室');
 		});

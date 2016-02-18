@@ -1,25 +1,25 @@
 {
-  "name": "socketio",
+  "name": "example4-es6inclient",
   "version": "1.0.0",
-  "description": "this is a simply socketio",
+  "description": "this is a test to use es6 in client",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "node",
-    "socket"
+    "es6",
+    "gulp"
   ],
   "author": "wray",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3",
-    "express-handlebars": "^2.0.1",
-    "socket.io": "^1.3.7"
-  },
-  "devDependencies": {
     "babel-preset-es2015": "^6.5.0",
+    "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-umd": "^6.4.3",
+    "babel-plugin-transform-runtime": "^6.5.2"
   }
 }
