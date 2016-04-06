@@ -1,4 +1,5 @@
-import {firstName, lastName, year} from './test1';
+import  './test1';
 
-console.log(firstName)
+
+
 

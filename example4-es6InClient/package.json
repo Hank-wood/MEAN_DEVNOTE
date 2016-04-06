@@ -19,6 +19,7 @@
     "gulp-babel": "^6.1.2"
   },
   "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.5.2",
     "babel-plugin-transform-es2015-modules-umd": "^6.4.3",
     "babel-plugin-transform-runtime": "^6.5.2"
   }

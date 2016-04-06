@@ -11,9 +11,8 @@
 exports.startSocketServer = (app) => {
 		var server = require('http').createServer(app);
 		var io = require('socket.io')(server);
-
+		
 		io.on('connection',(socket) => {
-
 			var name = '用户'+ userCount;
 			nickNames[socket.id] = name;
 			socket.emit('nameResult',{
