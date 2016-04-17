@@ -1,10 +1,11 @@
 'use strict';
 const http = require('http'),
 	  work = require('./lib/timetrack'),
-	  mysql = require('mysql'),
-	  db = mysql.createConnection({
-	  	host:'localhost',
-	  	user:'wulei',
+	  mysql = require('mysql');
+	  let db = mysql.createConnection({
+	  	host:'127.0.0.1',
+	  	user:'root',
+	  	password:'Wu314159',
 	  	database:'timetrack'
 	  });
 	  
@@ -41,7 +42,7 @@ db.query("CREATE TABLE IF NOT EXISTS work ("
 	  +'hours DECIMAL(5,2) DEFAULT 0,'
 	  +'archived INT(1) DEFAULT 0,'
 	  +'description LONGTEXT,'
-	  +'PRIMARY KEY(id),',
+	  +'PRIMARY KEY(id))',
 		  function(err){
 		  	if(err) throw err;
 		  	console.log('服务器已经启动')
