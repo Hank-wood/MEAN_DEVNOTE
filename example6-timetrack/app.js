@@ -40,6 +40,7 @@ let server = http.createServer((req, res) => {
 db.query("CREATE TABLE IF NOT EXISTS work ("
 	  +'id INT(10) NOT NULL AUTO_INCREMENT,'
 	  +'hours DECIMAL(5,2) DEFAULT 0,'
+	  +'date Date,'
 	  +'archived INT(1) DEFAULT 0,'
 	  +'description LONGTEXT,'
 	  +'PRIMARY KEY(id))',
