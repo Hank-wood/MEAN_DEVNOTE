@@ -1,5 +1,5 @@
 'use strict';
-let helloWorld = '你好，es6';
+let helloWorld = '你好，ddds6';
 
 function test(){
 	let i = 10;
@@ -10,4 +10,4 @@ function test(){
 
 }
 
-console.log(`${helloWorld}`)
+console.log(`${helloWorld} 我觉得`)

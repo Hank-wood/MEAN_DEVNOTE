@@ -1,8 +1,8 @@
 {
-  "name": "bms",
+  "name": "myBlog",
   "version": "1.0.0",
-  "description": "this is a simply bms",
-  "main": "app.js",
+  "description": "this is a simply blog",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +13,10 @@
   "author": "wray",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.1",
     "express": "^4.13.3",
     "express-handlebars": "^2.0.1",
-    "mysql": "^2.10.2",
-    "socket.io": "^1.3.7"
+    "mysql": "^2.10.2"
   }
 }
