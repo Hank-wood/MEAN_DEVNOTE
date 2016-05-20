@@ -12,6 +12,6 @@ $('#login-in').on('click',function(){
 	         }).done(function(data){
 	         	console.log(data)
 	         }).fail(function(){
-     		console.log('服务器异常')
+     			console.log('服务器异常')
 	         })
   })

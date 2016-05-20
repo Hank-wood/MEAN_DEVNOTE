@@ -12,7 +12,7 @@ exports.setRequestUrl = (app) => {
 	})
 //注册
 	app.get('/register',(req,res) => {
-	  res.render('pages/login/login',{
+	  res.render('pages/login/register',{
 	  	title:'注册'
 	  	})
 	})
