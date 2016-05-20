@@ -1,4 +1,5 @@
-
+'use strict'
+const register = require('./controllers/login/register')
 exports.setRequestUrl = (app) => {
 //登录界面操作
 	app.get('/login',(req,res) => {
@@ -16,6 +17,8 @@ exports.setRequestUrl = (app) => {
 	  	title:'注册'
 	  	})
 	})
-	
+	app.post('/register',(req,res) => {
+	  	register.postUserRegisterInfor(req,res)
+	})
 
 }
