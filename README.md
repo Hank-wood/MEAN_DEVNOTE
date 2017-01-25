@@ -1,11 +1,14 @@
-# nodejs
-专注于nodejs，用js完成全栈开发。
-希望用一个个小的例子来练习nodejs,慢慢来提升自己的能力。nodejs现在我认为是非常的流行，并且他会改变整个前端的工作流程，在实际的生产中，
-我仅仅是将nodejs作为一个简单的中间层，通过http来请求java后台发送的数据接口，而这些项目中，我将慢慢去挖掘nodejs更多的功能，用它来完成各种
-各样的任务。（项目运行在version 5.*.*上面）
+# Full Stack Fundamentals courses
 
-例一.socketio聊天室
- 这是一个简单的聊天室，现在正在进行搭建基本的框架，用了很多es6的新特性。说到es6，是nodejs5+带给我们前端工程师最大的惊喜和乐趣，在浏览器还不能完全普及es6的情况下，先让我们在服务器层进行尝鲜。聊天室的功能首先我完成的是基础功能，也就是通信。用的依然是经典的框架express(打算以后去尝试koa),模板引擎用的是handlebars，这是一个非常酷的nodejs模板，大家有兴趣完全可以去尝试。然后通信就用socket.io模块。其实，在这里我想说，nodejs现在的模块都是慢慢在接受es6，所以我们能处在这个时代，就一个字，狂拽酷炫吊炸天。霍霍，接下来就是慢慢引入mongo来进行登录操作。
-
-例二.文件服务器
- 对于现在的我来说，node的文件操作一直是一个非常头痛的问题，所以我自己准备打算建立一个专门来处理文件操作的服务器。
+## Contents
+    /public - static directories suchs as /images
+    /routes - route files for tutorial project
+    /views - views for tutorial project
+    README.md - this file
+    app.js - central app file for tutorial project
+    package.json - package info for tutorial project
+    
+## Happy learning !
+      let try es6
+      how to get Node, Express       
+      To practice basic Node.JS fundamentals and server-side programming
